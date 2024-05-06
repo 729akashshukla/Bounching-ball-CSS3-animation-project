@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUNCHING BALL PROJECT</title>
+    <style>
+        .common{
+            width:200px;
+            height:200px;
+            border-radius: 200px;
+            display: inline-block;
+            margin-inline-end: 40px;
+            animation-name: abc;
+            animation-duration: 0.8s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-in ;
+            animation-direction: alternate-reverse;
+
+
+        }
+        .b1{
+            background-color: rgb(255, 166, 33);
+            animation-delay: 0s;
+        }.b2{
+            background-color: rgb(182, 48, 245);
+            animation-delay: 3s;
+        }.b3{
+            background-color: rgb(217, 13, 139);
+            animation-delay: 1s;
+        }.b4{
+            background-color: rgb(83, 216, 38);
+            animation-delay: 2.3s;
+        }.b5{
+            background-color: rgb(255, 12, 7);
+            animation-delay: 1.6s;
+        }.b6{
+            background-color: rgb(18, 234, 155);
+            animation-delay: 1s;
+        }
+        @keyframes  abc{
+
+            0%{
+
+                transform: translateY(0px);
+            }
+            100%{
+
+                       transform: translateY(550px);
+              }
+            
+        }
+    </style>
+</head>
+<body>
+    <div  class="common b1">   </div>
+    <div  class="common b2">   </div>
+    <div  class="common b3">   </div>
+    <div  class="common b4">   </div>
+    <div  class="common b5">   </div>
+    <div  class="common b6">   </div>
+    
+</body>
+</html>
